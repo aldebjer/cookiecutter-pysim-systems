@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.ipdb
+*.iobj
+*.so
+build/
+dist/
+pysim.egg-info/
+.cache/
+
+#cython generated files
+pysim_system_template/systems/example_cpp_systems.cpp
+pysim_system_template/systems/example_cython_systems.cpp
+
+*.sdf

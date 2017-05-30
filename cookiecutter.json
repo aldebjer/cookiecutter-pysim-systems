@@ -1,0 +1,8 @@
+{
+    "project_name": "My PySim Package",
+    "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_short_description": "PySim Systems for simulating...",
+    "version": "0.1.0",
+    "system_collection_name": "My System Collection",
+    "system_collection_slug": "{{ cookiecutter.system_collection_name.lower().replace(' ', '_').replace('-', '_') }}"
+}
