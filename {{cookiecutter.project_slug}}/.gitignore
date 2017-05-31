@@ -13,7 +13,6 @@ pysim.egg-info/
 .cache/
 
 #cython generated files
-pysim_system_template/systems/example_cpp_systems.cpp
-pysim_system_template/systems/example_cython_systems.cpp
+{{cookiecutter.project_slug}}/systems/{{cookiecutter.system_collection_slug}}/{{cookiecutter.system_collection_slug}}.cpp
 
 *.sdf
